@@ -1,0 +1,228 @@
+body {
+    margin: auto;
+}
+
+.index {
+    margin: auto;
+    background-color: #e3e3e3;
+}
+
+.head {
+    background-color: #e3e3e3;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.body {
+    display: block;
+    margin-top: 400px;
+    background-color: #e3e3e3;
+    text-align: center;
+}
+
+.foot {
+    padding-top: 10px;
+    background-color: #e3e3e3;
+}
+
+a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited {
+    text-decoration: none;
+    color: purple;
+}
+
+a:hover {
+    text-decoration: none;
+    color: green;
+}
+
+a:active {
+    text-decoration: none;
+    color: red;
+}
+
+h1 {
+    color: #3e3e3e;
+    font-family: "Catamaran"
+}
+
+h2 {
+    color: #3e3e3e;
+    font-family: "Cormorant Garamond";
+    font-size: 24px;
+}
+
+h3 {
+    color: #3e3e3e;
+    font-family: "Cormorant Garamond";
+    font-size: 16px;
+}
+
+p {
+    color: #3e3e3e;
+    font-family: "Cormorant Garamond";
+    font-size: 12px;
+}
+
+.contact {
+    font-size: 30px;
+    margin: 15px 630px 15px 630px;
+    display: block;
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+    border-color: #3e3e3e;
+}
+
+hr {
+    border: 2px solid #3e3e3e;
+    border-radius: 2px;
+    width: 50%;
+}
+
+.head img {
+    position: absolute;
+    width: 100%;
+    border-bottom: 3px solid #3e3e3e;
+    left: 0;
+    top: -300px;
+}
+
+.profile{
+    position: absolute;
+    border: 3px solid #3e3e3e;
+    width: 50px;
+    left: calc(50vw - 50px);
+    top: 295px;
+}
+.languages {
+    width:66%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.language-list {
+    width: 30%;
+    margin: auto;
+}
+
+.language-list ul{
+    list-style-type: none;    
+    column-count: 2;
+    margin: auto;
+}
+
+.language-list img {
+    width: 22%;
+    height: auto;
+    float: left;
+}
+
+.experience {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.experience dl{
+    width: 80%;
+    list-style-type: none;    
+    column-count: 2;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.experience img {
+    width: 20%;
+    height: auto;
+    float: right;
+}
+
+.skills {
+    width:50%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.rating dl{
+    column-fill: auto;
+    column-count: 2;
+    margin: auto;
+}
+.rating img {
+    width: 20%;
+    float: left;
+}
+
+.foot {
+    text-align: center;
+    margin:auto;
+}
+
+.foot p {
+    border: #3e3e3e;
+    margin: auto;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.contact-head {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: #3e3e3e;
+    font-family: "Catamaran"
+}
+
+.contact-head p {
+    margin: auto;
+    color: #3e3e3e;
+    font-family: "Cormorant Garamond";
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+
+.form {
+    margin: auto;
+    text-align: center;
+    color: #3e3e3e;
+    font-family: "Catamaran";
+    font-size: 24px;
+}
+
+.form input {
+    width: 66%;
+    height: 30px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+.form textarea {
+    width: 66%;
+    height: 100px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+.form button {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 25%;
+    height: 50px;
+    color: #e3e3e3;
+    background-color: #3e3e3e;
+}
+
+.card {
+    margin: auto;
+    width: 50%;
+    box-shadow: #3e3e3e;
+    box-shadow: 10px 10px 10px;
+    background-color: #e3e3e3;
+}
